@@ -7,7 +7,7 @@
 ## 🟢 Active Systems
 | System Name | Project | Environment | Status | Last Checked |
 |---|---|---|---|---|
-| _(none yet)_ | | | | |
+| Nutrisnap App | Nutrisnap AI | Local (Vite) | SCAFFOLDING | 2026-04-05 |
 
 ---
 

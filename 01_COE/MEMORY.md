@@ -7,7 +7,7 @@
 ## 📚 Active Project Plans
 | Project | Lead Pod | Status | Last Updated |
 |---|---|---|---|
-| _(none yet)_ | | | |
+| NutriSnap AI | ML Engineer | COMPLETED | 2026-04-05 |
 
 ---
 
@@ -18,6 +18,7 @@
 - Specify output format explicitly (markdown table, JSON, paragraph, etc.)
 - Include a quality criterion ("Ensure the output is...")
 - For long tasks, break into steps
+- **Vision Standard**: For image analysis, define a "Confidence Level" for each estimation.
 
 ### Output Format Standards
 | Deliverable Type | Format |
@@ -62,6 +63,4 @@
 ---
 
 ## 🧩 Lessons Learned (from Completed Projects)
-| Lesson | Source Project | Applied To Standard? |
-|---|---|---|
-| _(none yet)_ | | |
+| Vision estimation requires "Confidence Level" for saucy/opaque foods. | NutriSnap AI | YES (Added to Vision Standard) |

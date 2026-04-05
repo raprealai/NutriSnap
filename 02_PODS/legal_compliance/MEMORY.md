@@ -7,7 +7,7 @@
 ## 📋 Risk Assessments Completed
 | Project | Risk Level | Key Issues Found | Date | Cleared? |
 |---|---|---|---|---|
-| _(none yet)_ | | | | |
+| Nutrisnap AI | MEDIUM | Nutritional estimation / medical liability | 2026-04-05 | YES (w/ disclaimer) |
 
 ---
 
@@ -24,6 +24,7 @@
 | "You are chatting with an AI assistant..." | Chatbots | |
 | "This content was generated with AI..." | Automated content | |
 | "This analysis was produced using AI tools..." | Data analysis | |
+| "Estimated nutritional data is for informational purposes..." | Nutrisnap AI | 2026-04-05 |
 
 ---
 

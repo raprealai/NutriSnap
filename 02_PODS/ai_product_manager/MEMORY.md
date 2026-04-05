@@ -7,7 +7,7 @@
 ## 📁 Active PRDs
 | Project | Client | Status | Link/Location |
 |---|---|---|---|
-| _(none yet)_ | | | |
+| Nutrisnap AI | Self (Test) | DRAFTING | `projects/nutrisnap_ai/prd.md` |
 
 ---
 

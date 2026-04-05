@@ -1,0 +1,176 @@
+:root {
+  --primary: #00b894;
+  --secondary: #2d3436;
+  --bg: #f9fafb;
+  --white: #ffffff;
+  --text: #2d3436;
+  --border: #dfe6e9;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  letter-spacing: -0.025em;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.upload-card {
+  background: var(--white);
+  border: 2px dashed var(--border);
+  border-radius: 1rem;
+  padding: 3rem;
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.upload-card:hover {
+  border-color: var(--primary);
+  background: #f0fff4;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.results-card {
+  background: var(--white);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.food-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.badge-high { background: #dcfce7; color: #166534; }
+.badge-medium { background: #fef9c3; color: #854d0e; }
+.badge-low { background: #fee2e2; color: #991b1b; }
+
+.nutrition-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.nutri-item {
+  text-align: center;
+  padding: 1rem;
+  background: var(--bg);
+  border-radius: 0.5rem;
+}
+
+.nutri-val {
+  font-size: 1.25rem;
+  font-weight: 800;
+  display: block;
+}
+
+.nutri-label {
+  font-size: 0.75rem;
+  color: #636e72;
+  text-transform: uppercase;
+}
+
+.calories-highlight {
+  background: var(--primary);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.calories-highlight .nutri-val {
+  font-size: 2.5rem;
+}
+
+.calories-highlight .nutri-label {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.disclaimer {
+  margin-top: 3rem;
+  font-size: 0.75rem;
+  color: #b2bec3;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.loader {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.image-preview {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  max-height: 300px;
+}

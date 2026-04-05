@@ -7,7 +7,7 @@
 ## 📊 Model Evaluations Completed
 | Model/Project | Test Cases | Pass Rate | Issues Found | Date |
 |---|---|---|---|---|
-| _(none yet)_ | | | | |
+| Nutrisnap Vision | 5 | 80% | Portion estimation in mixed dishes (saucy) | 2026-04-05 |
 
 ---
 
@@ -35,6 +35,4 @@
 ## 💡 Analytical Patterns Learned
 > Things you've noticed across projects — patterns that help future analysis.
 
-| Pattern | Context | How to Apply |
-|---|---|---|
-| _(none yet)_ | | |
+| Portion ambiguity in saucy dishes | Filipino Cuisine | Recommend using a "Confidence Level" for saucy foods like Bicol Express. |

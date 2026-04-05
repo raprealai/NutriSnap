@@ -7,7 +7,7 @@
 ## 🤖 System Prompt Registry
 | Name | Project | Model Used | Version | Last Updated |
 |---|---|---|---|---|
-| _(none yet)_ | | | | |
+| Nutrisnap Vision | Nutrisnap AI | claude-sonnet-4-6 | v1.0 | 2026-04-05 |
 
 ---
 

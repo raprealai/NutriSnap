@@ -8,8 +8,8 @@
 ## 🏢 Lab Identity
 - **Name**: AI Lab Naga
 - **Location**: Naga City, Philippines
-- **Owner**: [Your Name]
-- **Founded**: [Date]
+- **Owner**: Ralph Angelo P. Real
+- **Founded**: August 2025
 - **Mission**: Deliver complete, working AI-powered outputs for every project — on time, ethically, and with measurable value.
 
 ---
@@ -17,14 +17,14 @@
 ## 📋 Active Projects
 | Project Name | Client | Status | Assigned Pod | Deadline | Risk Level |
 |---|---|---|---|---|---|
-| _(none yet)_ | | | | | |
+| Nutrisnap AI | Self (Test) | COMPLETED | MLOps/ML | 2026-04-12 | MODERATE |
 
 ---
 
 ## ✅ Completed Projects
 | Project | Client | Outcome | Lessons Learned |
 |---|---|---|---|
-| _(none yet)_ | | | |
+| NutriSnap AI | Self (Test) | SUCCESS | Vision-based estimation requires confidence ratings for opaque/saucy foods. |
 
 ---
 
@@ -36,10 +36,10 @@
 ---
 
 ## 📌 Current Quarter Strategy
-**Quarter**: [Q# YYYY]
-**Focus**: [e.g., Build first 3 client projects, establish content pipeline]
-**Priority Skills to Develop**: [e.g., RAG pipelines, prompt engineering]
-**Tools We're Investing In**: [e.g., Claude API, n8n, Supabase]
+**Quarter**: Q2 2026
+**Focus**: Establish AI Lab Naga operational flow via NutriSnap AI test run.
+**Priority Skills to Develop**: Computer Vision (OCR/Food Recognition), Vite/React app integration.
+**Tools We're Investing In**: Claude 3.5 Sonnet (Vision), Vite, React, CSS Modules.
 
 ---
 
@@ -55,13 +55,13 @@
 ## 🔁 Retrospective Log
 | Date | Project | What Worked | What Failed | CoE Update Needed? |
 |---|---|---|---|---|
-| _(none yet)_ | | | | |
+| 2026-04-05 | NutriSnap AI | Multi-role workflow worked perfectly; UI Spec before Build rule saved time. | N/A | YES (Vision Standard Updated) |
 
 ---
 
 ## 📊 Lab Metrics (Update Monthly)
-- **Projects Completed**: 0
-- **Active Clients**: 0
+- **Projects Completed**: 1
+- **Active Clients**: 0 (1 Test Run)
 - **Revenue This Quarter**: ₱0
 - **Average Project Delivery Time**: N/A
 - **Client Satisfaction Score**: N/A
